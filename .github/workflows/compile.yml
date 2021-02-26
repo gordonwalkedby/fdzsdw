@@ -15,15 +15,13 @@ jobs:
       - name: treee
         run: tree.com
       - name: restore packages
-        working-directory: "./fdzsdw"  
-        run: nuget restore './fdzsdw/fdzsdw.sln'
+        run: nuget restore './fdzsdw.sln'
       - name: Add msbuild to PATH
         uses: microsoft/setup-msbuild@v1.0.2
         with:
           vs-version: '[16.4,16.5)'
       - name: run msbuild
-        working-directory: "./fdzsdw"
-        run: "& 'C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe' 'fdzsdw.sln'"
+        run: msbuild './fdzsdw.sln'
       - name: upload
         uses: actions/upload-artifact@v2
         with:
