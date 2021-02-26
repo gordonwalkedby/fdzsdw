@@ -1,0 +1,1023 @@
+<?xml version="1.0"?>
+<ArrayOfTypeInputUnit xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<TypeInputUnit>
+		<Id>01_01</Id>
+		<Text>ta men shuo guo zhe shi ge hao dong xi wo ying gai shi shi ma</Text>
+		<Subtitle>她们说过，这是个好东西，我应该试试吗？</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>01_02</Id>
+		<Text>11 tai e xin le 2 fuuk 2</Text>
+		<Subtitle>...太恶心了...</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>01_03</Id>
+		<Text>bu xing zhe hai bu gou 11 wo hai yao geng duo 10 fa</Text>
+		<Subtitle>不行，这还不够...我还要更多...</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>01_04</Id>
+		<Text>dou tu chu lai le a zhe ken ding 18 shi bu gou de wo hai xu yao geng duo</Text>
+		<Subtitle>都吐出来了啊，这肯定是不够的，我还需要更多...</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>01_05</Id>
+		<Text>11 kg ccvbg 5</Text>
+		<Subtitle>...恶心...</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>01_06</Id>
+		<Text>wo hai yao zai lai yi kou 4</Text>
+		<Subtitle>我还要再来一口...</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>01_07</Id>
+		<Text>9 zhe hai bu gou 12 ke yi le</Text>
+		<Subtitle>...这还不够...可以了...</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>01_08</Id>
+		<Text>6 zhe shi shi jie shang zui e xin de wei dao le 9 tian a wo de she tou</Text>
+		<Subtitle>...这是世界上最恶心的味道了...天啊我的舌头</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>01_09</Id>
+		<Text>wo gan jue dao wo de she tou he zui ba zao dao le tian qian jiu zhe yang ba wo yao xiu 5 xi yi xia</Text>
+		<Subtitle>我感觉到我的舌头和嘴巴遭到了天谴，就这样吧，我要休息...一下</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>02_01</Id>
+		<Text>ai jin tian shi ge hao ri zi</Text>
+		<Subtitle>唉，今天是个好日子</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>02_02</Id>
+		<Text>wo hen xing fu shi jie shang mei you ren bi wo geng jia xing fu</Text>
+		<Subtitle>我很幸福，世界上没有人比我更幸福</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>02_03</Id>
+		<Text>zhi shi du zi zhen de hao tong a</Text>
+		<Subtitle>只是肚子真的很痛啊</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>02_04</Id>
+		<Text>you ren jiu jiu wo ma ye xu wo hui xia di yu de</Text>
+		<Subtitle>有人救救我吗，也许我会下地狱的</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>02_05</Id>
+		<Text>you ren xiang sha le wo na jiu shi wo zi ji</Text>
+		<Subtitle>有人想杀了我，那就是我自己</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>02_06</Id>
+		<Text>na xie ren na xie ke wu de ren ying gai fu chu dai jia</Text>
+		<Subtitle>那些人，那些可恶的人，应该付出代价</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>02_07</Id>
+		<Text>mei you ren ke yi zu zhi wo wo shi zhe ge shi jie shang zui xing fu de ren</Text>
+		<Subtitle>没有人可以阻止我，我是这个世界上最幸福的人</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>02_08</Id>
+		<Text>wo xiang cheng wei yi ge nv hai zi</Text>
+		<Subtitle>我想成为一个女孩子</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>02_09</Id>
+		<Text>zai jian le wo qin ai de peng you men</Text>
+		<Subtitle>再见了我亲爱的朋友们</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>02_10</Id>
+		<Text>xi wang wo de qq kong jian bu hui gu zhang wo zhun bei le ding shi shuo shuo</Text>
+		<Subtitle>希望我的QQ空间不会故障，我准备了定时说说</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>02_11</Id>
+		<Text>wo mei you gao su ren he ren zhe cai shi zhen zheng de zi sha</Text>
+		<Subtitle>我没有告诉任何人，这才是真正的自杀</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>02_12</Id>
+		<Text>na xie chou sha bi ma de na xie qq qun li mian han zhe zi sha de ta ma you du shi ba a na shi ren ma</Text>
+		<Subtitle>那些臭SB，MD，那些QQ群里喊着自杀的都TM有毒是吧，啊，那是人嘛</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>02_13</Id>
+		<Text>ye xu shi wo de cuo dui ma ye xu shi wo de cuo ma</Text>
+		<Subtitle>也许是我的错，对吗？也许是我的错吗</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>02_14</Id>
+		<Text>zhe shi wo zi ji de xuan ze wo bu xu yao bie ren lai zu zhi wo</Text>
+		<Subtitle>这是我自己的选择，我不需要别人来阻止我</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>02_15</Id>
+		<Text>shi jie shang mei you ren bi wo geng jia xing fu ai</Text>
+		<Subtitle>世界上没有人比我更幸福，唉</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>02_16</Id>
+		<Text>wo bu zhi dao zai zhe hao wu liao du zi hai shi hao tong</Text>
+		<Subtitle>我不知道，在这好无聊，肚子还是好痛</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>02_17</Id>
+		<Text>15 yue lai yue tong le 3</Text>
+		<Subtitle>越来越痛了...</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>02_18</Id>
+		<Text>bu xing wo bu neng peng shou ji</Text>
+		<Subtitle>不行，我不能碰手机</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>02_19</Id>
+		<Text>shou ji yao guai guai dai zai zhuo zi shang mian zhe shi shu yu wo yi ge ren de shi guang</Text>
+		<Subtitle>手机要乖乖呆在桌子上面，这是属于我一个人的时光</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>02_20</Id>
+		<Text>wo bu neng gao su ren he ren wo zi sha le zhe shi shu yu wo de shi jie mei you ren ke yi zu zhi wo</Text>
+		<Subtitle>我不能告诉任何人我自杀了，这是属于我的世界，没有人可以阻止我</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>02_21</Id>
+		<Text>ta men shuo guo wo hui da xiao bian shi jin de wo ying gai zuo zai ma tong shang zi sha ma</Text>
+		<Subtitle>他们说过我会大小便失禁，我应该坐在马桶上自杀吗？</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>02_22</Id>
+		<Text>na tai diu ren le</Text>
+		<Subtitle>那太丢人了</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>02_23</Id>
+		<Text>zhe fang jian zhi you wo yi ge ren</Text>
+		<Subtitle>这房间只有我一个人</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>02_24</Id>
+		<Text>suan le wo hai shi zuo zai di shang ba</Text>
+		<Subtitle>算了我还是坐在地上吧</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>02_25</Id>
+		<Text>zuo zai di shang ye xu hui shu fu yi dian zhe chuang yi dian dou bu shu fu</Text>
+		<Subtitle>坐在地上也许会舒服一点，这床一点都不舒服</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>03_Marker 01</Id>
+		<Text>zuo di shang kao zhe chuang que shi shi shu fu yi dian le </Text>
+		<Subtitle>坐地上靠着床，确实是舒服一点了</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>03_Marker 02</Id>
+		<Text>dan shi wo de du zi hai shi hao tong</Text>
+		<Subtitle>但是我的肚子还是好痛</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>03_Marker 03</Id>
+		<Text>wo hao nan shou zhe gan jue zhen bu hao wo xiang tu a</Text>
+		<Subtitle>我好难受，这感觉真不好，我想吐啊</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>03_Marker 05</Id>
+		<Text>8 3 wo xiang tu 2</Text>
+		<Subtitle>...我想吐啊...</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>03_Marker 06</Id>
+		<Text>a 25</Text>
+		<Subtitle>...</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>03_Marker 07</Id>
+		<Text>bu zhi dao wo de wei bu zhi dao wo de xiao chang shi zen me xiang de jiu zhe me kang ju ma</Text>
+		<Subtitle>不知道我的胃，不知道我的小肠，是怎么想的</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>03_Marker 08</Id>
+		<Text>ren ti zhen shi ke lian ke xiao</Text>
+		<Subtitle>人体真是可怜可笑</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>03_Marker 09</Id>
+		<Text>zhe me qiang ying huo gai wo bei ta men nue dai zhe me jiu wo hai huo zhe</Text>
+		<Subtitle>这么强硬，活该我被他们虐待这么久我还活着</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>03_Marker 10</Id>
+		<Text>wo yao shi si le ta men jiu hui bei fa lv zhi cai</Text>
+		<Subtitle>我要是死了，他们就会被法律制裁</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>03_Marker 11</Id>
+		<Text>si zhe wei da</Text>
+		<Subtitle>死者为大</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>03_Marker 12</Id>
+		<Text>wo zai shuo shuo li mian ba ta men de shi qing dou xie le chu lai</Text>
+		<Subtitle>我在说说里面把他们的事情都写了出来</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>03_Marker 13</Id>
+		<Text>da jia yi ding hui hen hen de zhou ma ta men de</Text>
+		<Subtitle>大家一定会狠狠地咒骂他们的</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>03_Marker 14</Id>
+		<Text>jin guan wo zhi dao ta men bu shang wang</Text>
+		<Subtitle>尽管我知道他们不上网</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>03_Marker 15</Id>
+		<Text>zai wang shang ma yi ge bu shang wang de yuan shi ren na xie yuan shi ren shi bu hui you ren he fan ying de</Text>
+		<Subtitle>在网上骂一个不上网的原始人，那些原始人是不会有任何反应的</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>03_Marker 16</Id>
+		<Text>duo me ke xiao</Text>
+		<Subtitle>多么可笑</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>03_Marker 17</Id>
+		<Text>tian a du zi hao tong</Text>
+		<Subtitle>天啊，肚子好痛</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>03_Marker 20</Id>
+		<Text>wo de lian zai fa tang zen me hui zhe me tang</Text>
+		<Subtitle>我的脸在发烫，怎么会这么烫</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>03_Marker 21</Id>
+		<Text>xiang qi na wei dao wo jiu xiang tu</Text>
+		<Subtitle>想起那味道我就想吐</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>03_Marker 22</Id>
+		<Text>zhe shi shen me yang de wei dao a</Text>
+		<Subtitle>这是什么样的味道啊</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>03_Marker 23</Id>
+		<Text>15 13</Text>
+		<Subtitle>啊...</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>03_Marker 24</Id>
+		<Text>zhe zhen de zao tou le</Text>
+		<Subtitle>这真的糟透了</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>03_Marker 25</Id>
+		<Text>wo zhen de bu xi huan zhe yang</Text>
+		<Subtitle>我真的不喜欢这样</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>03_Marker 26</Id>
+		<Text>wo bu neng peng wo de shou ji</Text>
+		<Subtitle>我不能碰我的手机</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>03_Marker 27</Id>
+		<Text>o wo zui ai de shou ji</Text>
+		<Subtitle>噢，我最爱的手机</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>03_Marker 28</Id>
+		<Text>you ni pei zhe wo zhen hao</Text>
+		<Subtitle>有你陪着我真好</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>03_Marker 30</Id>
+		<Text>ru guo mei you ni wo zen me ren shi zhe me duo peng you</Text>
+		<Subtitle>如果没有你，我怎么认识这么多朋友</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>03_Marker 31</Id>
+		<Text>ta men duo me ai wo wo ye duo me ai ta men</Text>
+		<Subtitle>他们多么爱我，我也多么爱她们</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>03_Marker 32</Id>
+		<Text>xing hao wo fu mu mei you za le ni bu ran wo zhen de bu zhi dao zen me ban</Text>
+		<Subtitle>幸好我父母没有砸了你，不然我真的不知道怎么办</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>03_Marker 33</Id>
+		<Text>wo gan en ta men fu zhai fu zhai de fu mu cai shi hao fu mu</Text>
+		<Subtitle>我感恩他们负债，负债的父母才是好父母</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>03_Marker 34</Id>
+		<Text>ru guo ta men you qian de hua wo ying ding hui bei song dao jing shen bing yuan li qu</Text>
+		<Subtitle>如果他们有钱的话，我一定会被送到精神病院里去</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>03_Marker 35</Id>
+		<Text>na li mei you shou ji mei you dian nao mei you wang luo</Text>
+		<Subtitle>那里没有手机，没有电脑，没有网络</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>03_Marker 36</Id>
+		<Text>wo jiu shi xie zi dou yao bei hu shi ding zhe</Text>
+		<Subtitle>我就是写字都要被护士盯着</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>03_Marker 37</Id>
+		<Text>wo ye bu ke neng chuan zi ji de yi fu geng bu yong ti chuan qun zi</Text>
+		<Subtitle>我也不可能穿自己的衣服，更不用提穿裙子</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>03_Marker 38</Id>
+		<Text>ye xu wo lian xin wen dou kan bu liao</Text>
+		<Subtitle>也许我连新闻都看不了</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>03_Marker 39</Id>
+		<Text>na xie jing shen bing yuan li de bing ren kan zhe wo de yan shen</Text>
+		<Subtitle>那些精神病院里的病人看着我的眼神</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>03_Marker 40</Id>
+		<Text>na me dai zhi</Text>
+		<Subtitle>那么呆滞</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>03_Marker 41</Id>
+		<Text>jiu zhe me xiang ba wo song jin qu ma</Text>
+		<Subtitle>就这么想把我送进去吗</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>03_Marker 42</Id>
+		<Text>bu ting ni de hua ni jiu xiang kong zhi wo</Text>
+		<Subtitle>不听你的话，你就想控制我</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>03_Marker 43</Id>
+		<Text>xie tian xie di ni men zhe xie sha bi hui qu qian zhai</Text>
+		<Subtitle>谢天谢地，你们这些傻逼会去欠债</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>03_Marker 44</Id>
+		<Text>ni men mei you qian dan shi wo hui you qian</Text>
+		<Subtitle>你们没有钱，但是我会有钱</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>03_Marker 45</Id>
+		<Text>wo hui xiang ban fa wo yao rang ni men huo zai tong ku zhi zhong</Text>
+		<Subtitle>我会想办法，我要让你们活在痛苦之中</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>03_Marker 46</Id>
+		<Text>ru guo ni men zhen de you na zhong ke xiao de ai zai li mian de hua</Text>
+		<Subtitle>如果你们真的有那种可笑的爱在里面的话</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>03_Marker 47</Id>
+		<Text>ru guo wo si zai yi yuan li huo zhe si zai zhe bing guan li</Text>
+		<Subtitle>如果我死在医院里，或者死在这宾馆里</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>03_Marker 48</Id>
+		<Text>ni men yi ding hui hen tong ku</Text>
+		<Subtitle>你们一定会很痛苦</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>03_Marker 49</Id>
+		<Text>tian a wo xiang shang ce suo wo yao qu shang ce suo</Text>
+		<Subtitle>天啊，我想上厕所，我要去上厕所</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>04_Marker 02</Id>
+		<Text>wo gan jue wo de pi gu yi jing bu shi wo de pi gu le</Text>
+		<Subtitle>我感觉我的屁股已经不是我的屁股了</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>04_Marker 03</Id>
+		<Text>zhe bei zi la shi jiu me zhe me chang kuai guo</Text>
+		<Subtitle>这辈子拉屎就没这么畅快过</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>04_Marker 04</Id>
+		<Text>zhe jiu shi da xiao bian shi jin ma</Text>
+		<Subtitle>这就是大小便失禁吗</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>04_Marker 05</Id>
+		<Text>ke shi ke shi wo hai shi neng gan jue dao wo hai neng kong zhi pi gu a</Text>
+		<Subtitle>可是，可是，我还是能感觉到我还能控制屁股啊</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>04_Marker 06</Id>
+		<Text>zhi shi gan jue bian de te bie de song xie</Text>
+		<Subtitle>只是感觉变得特别的松懈</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>04_Marker 07</Id>
+		<Text>o tian na du zi hai shi hao tong</Text>
+		<Subtitle>哦 天哪 肚子还是好痛</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>04_Marker 08</Id>
+		<Text>wo zui hao hai shi yi zhi dai zai ma tong shang hao le</Text>
+		<Subtitle>我最好还是一直呆在马桶上好了</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>04_Marker 09</Id>
+		<Text>zui qi ma wo bu hui hun mi zai ma tong shang shi ba</Text>
+		<Subtitle>最起码我不会昏迷在马桶上 是吧</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>04_Marker 10</Id>
+		<Text>wo bu zhi dao zuo ma tong shang zi sha ting diu ren de</Text>
+		<Subtitle>我不知道 坐马桶上自杀挺丢人的</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>04_Marker 11</Id>
+		<Text>du zi hao tong a</Text>
+		<Subtitle>肚子好痛啊</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>04_Marker 12</Id>
+		<Text>zheng yi zhi zi mian dui you bei chang li de shi jie hui rang shi jie tian fan di fu</Text>
+		<Subtitle>正义之子面对有悖常理的世界 会让世界天翻地覆</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>04_Marker 13</Id>
+		<Text>wo yao shi ge deng fu li man jiu hao le wo di yi ge qiao si wo ma</Text>
+		<Subtitle>我要是戈登弗里曼就好了 我第一个敲死我妈</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>04_Marker 14</Id>
+		<Text>di er ge qiao si wo ba</Text>
+		<Subtitle>第二个敲死我爸</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>04_Marker 16</Id>
+		<Text>du zi hai shi hao tong</Text>
+		<Subtitle>肚子还是好痛</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>04_Marker 17</Id>
+		<Text>la chu lai de zhe shi bai se de ye ti</Text>
+		<Subtitle>拉出来的 这是白色的液体</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>04_Marker 18</Id>
+		<Text>wo di yi ci kan jian fen bian shi zhe yang de xing zhuang</Text>
+		<Subtitle>我第一次看见粪便是这样的形状</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>04_Marker 19</Id>
+		<Text>zhen ci ji</Text>
+		<Subtitle>真刺激</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>04_Marker 20</Id>
+		<Text>rou ti shi zai shi tai qiang da le</Text>
+		<Subtitle>肉体实在是太强大了</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>04_Marker 21</Id>
+		<Text>wo bing bu xi huan zhe yang a 6 hao tong</Text>
+		<Subtitle>我并不喜欢这样 啊……好痛</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>04_Marker 22</Id>
+		<Text>zhen de hao tong</Text>
+		<Subtitle>真的好痛</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>04_Marker 23</Id>
+		<Text>xian ba ma tong chong diao ba</Text>
+		<Subtitle>先把马桶冲掉吧</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>04_Marker 24</Id>
+		<Text>xu duo zhe xue jia dou shi zai ma tong shang zai ce suo li</Text>
+		<Subtitle>许多哲学家都是在马桶上 在厕所里</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>04_Marker 25</Id>
+		<Text>zhao dao xin fa xian huo zhe ren sheng de yi yi de</Text>
+		<Subtitle>找到新发现或者人生的意义的</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>04_Marker 26</Id>
+		<Text>wo hui you na me yi ge ji hui ma</Text>
+		<Subtitle>我会有那么一个机会吗</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>04_Marker 27</Id>
+		<Text>ye xu hui you de ba</Text>
+		<Subtitle>也许会有的吧</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>04_Marker 28</Id>
+		<Text>wo zhe bei zi jiu mei ren shi guo ji ge li hai de ren</Text>
+		<Subtitle>我这辈子就没认识过几个厉害的人</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>04_Marker 29</Id>
+		<Text>na xie li hai de ren ye bu xiang ren shi wo</Text>
+		<Subtitle>那些厉害的人也不想认识我</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>04_Marker 30</Id>
+		<Text>na xie ren cong lai jiu bu hui que peng you</Text>
+		<Subtitle>那些人 从来就不会缺朋友</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>04_Marker 31</Id>
+		<Text>yi ge ge jiu zhi zhi dao ke lian wo</Text>
+		<Subtitle>一个个就只知道可怜我</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>04_Marker 32</Id>
+		<Text>wo shi ge jing shen bing ren</Text>
+		<Subtitle>我是个精神病人</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>04_Marker 33</Id>
+		<Text>si you yu gu</Text>
+		<Subtitle>死有余辜</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>04_Marker 34</Id>
+		<Text>you la chu lai le</Text>
+		<Subtitle>又拉出来了</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>04_Marker 35</Id>
+		<Text>gan jue zi ji de shen ti yi jing bu shou zi ji kong zhi le</Text>
+		<Subtitle>感觉自己的身体已经不受自己控制了</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>04_Marker 36</Id>
+		<Text>zhe jiu shi da xiao bian shi jin ba</Text>
+		<Subtitle>这就是大小便失禁吧</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>04_Marker 37</Id>
+		<Text>jie jie shuo guo wo ke yi qu ta jia li mian zhu</Text>
+		<Subtitle>姐姐说过我可以去她家里面住</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>04_Marker 38</Id>
+		<Text>dan shi wo jue de mei you jiu le</Text>
+		<Subtitle>但是我觉得没有救了</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>04_Marker 39</Id>
+		<Text>wo jue de wo zhe zhong fei wu shen me gong zuo dou zuo bu hao de</Text>
+		<Subtitle>我觉得我这种废物 什么工作都做不好的</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>04_Marker 40</Id>
+		<Text>shi yi ge che tou che wei de fei wu si ding le de fei wu</Text>
+		<Subtitle>是一个彻头彻尾的废物 死定了的废物</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>04_Marker 41</Id>
+		<Text>gan jue du zi de hua 4 shao wei shu fu yi dian le</Text>
+		<Subtitle>感觉肚子的话 …… 稍微舒服一点了</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>04_Marker 42</Id>
+		<Text>wo men hai shi ji xu zuo zai di shang ba</Text>
+		<Subtitle>我们还是继续坐在地上吧</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>04_Marker 43</Id>
+		<Text>zuo ma tong shang zi sha zhen diu ren</Text>
+		<Subtitle>坐马桶上自杀真丢人</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>05_Marker 01</Id>
+		<Text>lian yue lai yue tang le hao tang a</Text>
+		<Subtitle>脸越来越烫了 好烫啊</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>05_Marker 02</Id>
+		<Text>du zi ye hao tong hao kong bu de gan jue</Text>
+		<Subtitle>肚子也好痛 好恐怖的感觉</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>05_Marker 03</Id>
+		<Text>wo yao si le ma</Text>
+		<Subtitle>我要死了吗</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>05_Marker 04</Id>
+		<Text>gan jue yi dian dou bu xiang shi yao si le shi shi shang wo gan jue hao qing xing a</Text>
+		<Subtitle>感觉一点都不像是要死了 事实上我感觉好清醒啊</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>05_Marker 05</Id>
+		<Text>wo gan jue hai xing</Text>
+		<Subtitle>我感觉还行</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>05_Marker 06</Id>
+		<Text>ai hao nan a</Text>
+		<Subtitle>唉，好难啊</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>05_Marker 07</Id>
+		<Text>si le zhi hou wo pa ta men wu ru wo</Text>
+		<Subtitle>死了之后，我怕他们侮辱我</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>05_Marker 08</Id>
+		<Text>bu guo sui bian le zhi bu guo shi bei di ren wu ru er yi</Text>
+		<Subtitle>不过随便了 只不过是被敌人侮辱而已</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>05_Marker 10</Id>
+		<Text>wo de peng you shi bu hui wu ru wo de</Text>
+		<Subtitle>我的朋友是不会侮辱我的</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>05_Marker 11</Id>
+		<Text>they are my enemies</Text>
+		<Subtitle>they are my enemies</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>05_Marker 12</Id>
+		<Text>they should be dead</Text>
+		<Subtitle>they should be dead</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>05_Marker 13</Id>
+		<Text>please kill me</Text>
+		<Subtitle>please kill me</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>05_Marker 14</Id>
+		<Text>or should i say that</Text>
+		<Subtitle>or should I say that</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>05_Marker 15</Id>
+		<Text>exterminate me</Text>
+		<Subtitle>exterminate me</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>05_Marker 16</Id>
+		<Text>please</Text>
+		<Subtitle>please</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>05_Marker 17</Id>
+		<Text>wo hao tang a</Text>
+		<Subtitle>我好烫啊</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>05_Marker 18</Id>
+		<Text>wo hao xiang la dao ku zi li le</Text>
+		<Subtitle>我好像拉到裤子里了</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>05_Marker 19</Id>
+		<Text>wo de pi gu gan jue hao qi guai</Text>
+		<Subtitle>我的屁股感觉好奇怪</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>05_Marker 20</Id>
+		<Text>zhe bu hao zhe zhen de bu hao</Text>
+		<Subtitle>这不好 这真的不好</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>05_Marker 21</Id>
+		<Text>jian chi jiu shi sheng li</Text>
+		<Subtitle>坚持就是胜利</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>05_Marker 22</Id>
+		<Text>zhen bu zhi dao ta shi zen me shou de liao de wo de tian a wo shou bu liao le zhe tai tong ku le</Text>
+		<Subtitle>真不知道她是怎么受得了的 我的天啊 我受不了了 这太痛苦了</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>05_Marker 23</Id>
+		<Text>wo xi wang ta men ming tian zao shang kan jian wo fa de shuo shuo bu hui tai shang xin</Text>
+		<Subtitle>我希望她们明天早上看见我发的说说不会太伤心</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>05_Marker 24</Id>
+		<Text>wo zhi dao ta men hui li jie wo de</Text>
+		<Subtitle>我知道她们会理解我的</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>05_Marker 25</Id>
+		<Text>tong shi wo xi wang</Text>
+		<Subtitle>同时我希望</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>05_Marker 26</Id>
+		<Text>fu mu hui de dao zui ke pa de tong ku</Text>
+		<Subtitle>父母会得到最可怕的痛苦</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>05_Marker 27</Id>
+		<Text>wei shen me yao sheng wo</Text>
+		<Subtitle>为什么要生我</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>05_Marker 28</Id>
+		<Text>zheng fu dang nian bu shi jin zhi sheng liang ge hai zi ma</Text>
+		<Subtitle>政府当年不是禁止生两个孩子吗</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>05_Marker 29</Id>
+		<Text>ni hai gu yi sheng wo</Text>
+		<Subtitle>你还故意生我</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>05_Marker 30</Id>
+		<Text>hai tian tian he wo shuo wei le sheng wo fa kuan le yi wan kuai qian</Text>
+		<Subtitle>还天天和我说 为了生我，罚款了一万块钱</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>05_Marker 31</Id>
+		<Text>zheng fu de hua ni bu ting sheng le wo shi yao zao tian qian de</Text>
+		<Subtitle>政府的话你不听 生了我，是要遭天谴的</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>05_Marker 32</Id>
+		<Text>wo bu xiang bei ren jiu xia lai</Text>
+		<Subtitle>我不想被人救下来</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>05_Marker 33</Id>
+		<Text>ta men jiu xia lai zhi hou yao gei wo xi wei</Text>
+		<Subtitle>他们救下来之后要给我洗胃</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>05_Marker 34</Id>
+		<Text>xi wei tai tong ku le</Text>
+		<Subtitle>洗胃太痛苦了</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>05_Marker 35</Id>
+		<Text>xia mian hao xiang you la chu lai le</Text>
+		<Subtitle>下面好像又拉出来了</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>05_Marker 36</Id>
+		<Text>di ban ye shi le a</Text>
+		<Subtitle>地板也湿了啊</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>05_Marker 37</Id>
+		<Text>dao mei bin guan ke neng hui zhao wo de ma fan</Text>
+		<Subtitle>倒霉，宾馆可能会找我的麻烦</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>05_Marker 38</Id>
+		<Text>zong you ren wen wo wei shen me bu dang cheng xu yuan</Text>
+		<Subtitle>总有人问我为什么不当程序员</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>05_Marker 39</Id>
+		<Text>wo dang ni ma de cheng xu yuan</Text>
+		<Subtitle>我当你妈的程序员</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>05_Marker 40</Id>
+		<Text>wo zhe shen me shui ping wo xin li mei you bi shu ma</Text>
+		<Subtitle>我这什么水平我心里没有B数吗</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>05_Marker 41</Id>
+		<Text>wo mei you da xue xue li mei you suan fa ti mei you mian shi guo</Text>
+		<Subtitle>我没有大学学历 没有算法题 没有面试过</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>05_Marker 42</Id>
+		<Text>wo shi ge gao zhong bi ye de bai lei</Text>
+		<Subtitle>我是个高中毕业的败类</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>05_Marker 43</Id>
+		<Text>shi gong he guo li duo yu de ren zha</Text>
+		<Subtitle>是共和国里多余的人渣</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>05_Marker 44</Id>
+		<Text>jiu cai wo dou bu pei dang</Text>
+		<Subtitle>韭菜我都不配当</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>06_Marker 01</Id>
+		<Text>hen duo ren hen duo shi qing bu zhi dao zen me shuo</Text>
+		<Subtitle>很多人，很多事情 不知道怎么说</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>06_Marker 02</Id>
+		<Text>xiang chi ping guo xiang xiang chi xiang chi han bao</Text>
+		<Subtitle>想吃苹果 想……想吃……想吃汉堡</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>06_Marker 03</Id>
+		<Text>wo mei yi ge wang shang de peng you dui wo dou na me hao</Text>
+		<Subtitle>我每一个网上的朋友对我都那么好</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>06_Marker 04</Id>
+		<Text>cong lai mei you ren xiang guo yao hai wo</Text>
+		<Subtitle>从来没有人想过要害我</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>06_Marker 05</Id>
+		<Text>jiu shi ni men xiang hai wo cong lai mei you ren xiang guai zou wo</Text>
+		<Subtitle>就是你们想害我 从来没有人想拐走我</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>06_Marker 06</Id>
+		<Text>cong lai mei you ren zu zhi wo nv zhuang</Text>
+		<Subtitle>从来没有人阻止我女装</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>06_Marker 07</Id>
+		<Text>cong lai mei you ren xiang na zou wo de qian</Text>
+		<Subtitle>从来没有人想拿走我的钱</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>06_Marker 08</Id>
+		<Text>ni men hai mei qi ming yue yao wei wo cun qian ni jiu zhe me xi wang wo qu yi ge lao po ma</Text>
+		<Subtitle>你们还美其名曰要为我存钱 你就这么希望我娶一个老婆吗</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>06_Marker 09</Id>
+		<Text>wo qu yi ge yao niang ke yi ma zhe jiu shi ni xiang yao de ma</Text>
+		<Subtitle>我娶一个药娘可以吗 这就是你想要的吗？</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>06_Marker 10</Id>
+		<Text>dao mei si le</Text>
+		<Subtitle>倒霉死了</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>06_Marker 11</Id>
+		<Text>du zi hai shi hao tong a</Text>
+		<Subtitle>肚子还是好痛啊</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>06_Marker 12</Id>
+		<Text>di shang zhe xie shui ying gai dou shi 3 wo de niao ba wo bu gan wen wo hao xiang yi jing wen bu dao dong xi le</Text>
+		<Subtitle>地上这些水 应该都是……我的尿吧 我不敢闻 我好像已经闻不到东西了</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>06_Marker 13</Id>
+		<Text>zui ba gan jue hao e xin hai shi hen xiang 3 tu hai shi hen xiang tu</Text>
+		<Subtitle>嘴巴感觉好恶心 还是很想……吐 还是很想吐</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>06_Marker 14</Id>
+		<Text>hai shi hen xiang tu</Text>
+		<Subtitle>还是很想吐</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>06_Marker 16</Id>
+		<Text>wo xiang he jie jie zai yi qi ta zai na ne</Text>
+		<Subtitle>我想和姐姐在一起，她在哪呢？</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>06_Marker 17</Id>
+		<Text>zai bei jing a tai yuan le</Text>
+		<Subtitle>在北京啊，太远了</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>06_Marker 18</Id>
+		<Text>na dui bu qi wo xian zou le</Text>
+		<Subtitle>那对不起，我先走了</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>06_Marker 20</Id>
+		<Text>wo zhe bei zi jiu mai guo yi zhang xiang yang de xian ka</Text>
+		<Subtitle>我这辈子就买过一张像样的显卡</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>06_Marker 21</Id>
+		<Text>na jiu shi yi ling wu ling</Text>
+		<Subtitle>那就是 1050</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>06_Marker 22</Id>
+		<Text>wo mai ka de qian quan shi wo zi ji zhuan de</Text>
+		<Subtitle>我买卡的钱全是我自己赚的</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>06_Marker 23</Id>
+		<Text>zhe jiu shi ni xiang yao de ma tian tian wu ru wo shuo wo lang fei qian</Text>
+		<Subtitle>这就是你想要的吗？天天侮辱我，说我浪费钱</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>06_Marker 24</Id>
+		<Text>wo duo me xi huan na ge yi ling wu ling de he zi a</Text>
+		<Subtitle>我多么喜欢那个1050的盒子啊</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>06_Marker 26</Id>
+		<Text>na shi quan xin de n ka he zi</Text>
+		<Subtitle>那是全新的N卡盒子</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>06_Marker 27</Id>
+		<Text>ni jiu diu le</Text>
+		<Subtitle>你就丢了</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>06_Marker 28</Id>
+		<Text>wo chu qu shang ke ni jiu ba ta diu le</Text>
+		<Subtitle>我出去上课你就把它丢了</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>06_Marker 29</Id>
+		<Text>wo hen is ni men liang ge le</Text>
+		<Subtitle>我恨死你们两个了</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>06_Marker 30</Id>
+		<Text>o tian a hao man chang</Text>
+		<Subtitle>哦天啊，好漫长</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>06_Marker 31</Id>
+		<Text>wo gan jue wo zuo zai zhe li wo de tui hao xiang yi jing shi qu zhi jue le</Text>
+		<Subtitle>我感觉我坐在这里，我的腿好像已经失去知觉了</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>06_Marker 32</Id>
+		<Text>wo zhan bu qi lai le</Text>
+		<Subtitle>我站不起来了</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>06_Marker 33</Id>
+		<Text>lian hao tang a</Text>
+		<Subtitle>脸好烫啊</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>06_Marker 34</Id>
+		<Text>ru guo wo you yi ba qiang jiu hao le ke shi xian zai wan ju qiang dou wei fa le</Text>
+		<Subtitle>如果我有一把枪就好了，可是现在玩具枪都违法了</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>06_Marker 35</Id>
+		<Text>wo yao da yao er ling ma wo yao qiu jiu ma</Text>
+		<Subtitle>我要打120吗，我要求救吗</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>06_Marker 36</Id>
+		<Text>wo bu zhi dao wo de tui hao xiang hai neng dong</Text>
+		<Subtitle>我不知道，我的腿好像还能动</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>06_Marker 37</Id>
+		<Text>dan shi hao xiang you dong bu liao le</Text>
+		<Subtitle>但是好像又动不了了</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>06_Marker 38</Id>
+		<Text>wo e le</Text>
+		<Subtitle>我饿了</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>06_Marker 39</Id>
+		<Text>wo hao ke ke wo zhe li shen me dou mei you</Text>
+		<Subtitle>我好渴，可我这里什么都没有</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>06_Marker 41</Id>
+		<Text>wo dou kuai si le wo hai yao chi shen me dong xi ne</Text>
+		<Subtitle>我都快死了，我还要吃什么东西呢</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>06_Marker 42</Id>
+		<Text>bu zhi dao a chuang hui xiang qi wo ma</Text>
+		<Subtitle>不知道阿创会想起我吗</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>06_Marker 45</Id>
+		<Text>ta zi sha shi bai le</Text>
+		<Subtitle>她自杀失败了</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>06_Marker 46</Id>
+		<Text>wo hui cheng gong ma</Text>
+		<Subtitle>我会成功吗</Subtitle>
+	</TypeInputUnit>
+	<TypeInputUnit>
+		<Id>06_Marker 47</Id>
+		<Text>xi wang hui cheng gong ba</Text>
+		<Subtitle>希望会成功吧</Subtitle>
+	</TypeInputUnit>
+</ArrayOfTypeInputUnit>

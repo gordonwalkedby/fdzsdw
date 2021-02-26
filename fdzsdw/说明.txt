@@ -1,0 +1,42 @@
+﻿服毒自杀的我
+
+作者：戈登走過去（Gordon Walkedby）
+
+打开 fdzsdw.exe 即可开始游戏。
+第一次运行时，会要求您授权修改注册表。
+这是因为游戏内的视频播放组件依赖 Internet Explorer 11 浏览器，我们需要向 Windows 系统登记我们需要的 IE 版本。
+如果您拒绝修改注册表，或者无法提供管理员权限去修改注册表，或者您的电脑里没有 Internet Explorer 11。那么本游戏很可能无法运行。
+
+卸载游戏：
+应该先以管理员权限运行 clear.reg 文件，我会清除之前注入的注册表信息。
+然后删除整个游戏文件夹即可。
+
+游玩建议：
+不要玩完了游戏觉得吃毒药没什么大不了的。
+
+游戏运行环境要求：
+Windows 7 或 Windows 8.1 或 Windows 10 
+CPU 架构为 x86 或 x64 ，ARM或其他很可能不受支持
+.NET Framework 4.8
+Internet Explorer 11
+显示器分辨率大于 1300x750 ，刷新率至少 48hz
+鼠标和键盘是必须的
+需要声卡，加上扬声器或耳机
+
+有需要联系我的问题，请到下面这里的某个地方联系我：  
+程序源代码，可发issue  https://github.com/gordonwalkedby/fdzsdw
+我的微博  https://weibo.com/5977985000/profile
+我的推特  https://twitter.com/GDZGQ
+我的B站  https://space.bilibili.com/4523834
+
+游戏内使用的第三方音乐：
+District Four by Kevin MacLeod
+Link: https://filmmusic.io/song/3662-district-four
+License: https://filmmusic.io/standard-license
+
+使用的第三方类库：
+https://github.com/naudio/NAudio
+
+协助制作者：
+0xAA55 https://www.0xaa55.com/
+lifegpc https://github.com/lifegpc

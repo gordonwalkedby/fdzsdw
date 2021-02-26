@@ -1,0 +1,105 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IEMediaPlayer</title>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            overflow: hidden;
+        }
+        
+        #ply {
+            width: 100%;
+            background-color: black;
+        }
+        
+        video::cue {
+            font-size: 5em;
+        }
+    </style>
+</head>
+
+<body>
+    <video id="ply">
+        <track id="plysub" kind="subtitles" />
+    </video>
+    <script>
+        var ply = document.getElementById("ply")
+        var plysub = document.getElementById("plysub")
+        var lastHeight = 0
+
+        setInterval(function() {
+            var wh = window.innerHeight
+            if (wh != lastHeight) {
+                ply.style.height = wh.toFixed() + "px"
+                lastHeight = wh
+            }
+        }, 100)
+
+        function SetContent(src, controls, autoplay, volume, loop) {
+            ply.src = src
+            ply.controls = controls
+            ply.autoplay = autoplay
+            var mme = function(ev) {
+                ev.preventDefault()
+            }
+            ply.onkeydown = mme
+            ply.onkeyup = mme
+            ply.onkeypress = mme
+            SetVolume(volume)
+            Setloop(loop)
+        }
+
+        function SetBackColor(c) {
+            ply.style.backgroundColor = c
+        }
+
+        function SetVolume(v) {
+            ply.volume = v
+        }
+
+        function IsPaused() {
+            return ply.paused
+        }
+
+        function PlayOrPause() {
+            if (IsPaused()) {
+                ply.play()
+            } else {
+                ply.pause()
+            }
+        }
+
+        function SetPlayRate(v) {
+            ply.playbackRate = v
+        }
+
+        function Setloop(b) {
+            ply.loop = b
+        }
+
+        function SetTimePos(v) {
+            ply.currentTime = v
+        }
+
+        function GetTimePos() {
+            return ply.currentTime
+        }
+
+        function GetMediaTimeLength() {
+            return ply.duration
+        }
+
+        function SetSubtitleSrc(f) {
+            plysub.src = f
+            ply.textTracks[0].mode = "showing"
+        }
+    </script>
+</body>
+
+</html>
