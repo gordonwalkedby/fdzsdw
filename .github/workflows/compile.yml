@@ -18,8 +18,6 @@ jobs:
         run: nuget restore './fdzsdw.sln'
       - name: Add msbuild to PATH
         uses: microsoft/setup-msbuild@v1.0.2
-        with:
-          vs-version: '[16.4,16.5)'
       - name: run msbuild
         run: msbuild './fdzsdw.sln'
       - name: upload
