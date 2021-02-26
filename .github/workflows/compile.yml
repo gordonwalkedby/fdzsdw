@@ -1,0 +1,26 @@
+name: Try Compile
+
+on: 
+  - push
+  - pull_request
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v1
+      - name: setup NuGet
+        uses: NuGet/setup-nuget@v1.0.5
+      - name: restore packages
+        working-directory: "./fdzsdw/fdzsdw.sln"  
+        run: nuget.exe restore 
+      - name: msbuild
+        working-directory: "./fdzsdw/fdzsdw.sln"
+        run: "& 'C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe'"
+      - name: upload
+        uses: actions/upload-artifact@v2
+        with:
+          name: compiled_files
+          path: "./fdzsdw/fdzsdw/bin/Debug"  
+          
