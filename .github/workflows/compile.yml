@@ -13,14 +13,14 @@ jobs:
       - name: setup NuGet
         uses: NuGet/setup-nuget@v1.0.5
       - name: restore packages
-        working-directory: "./fdzsdw/fdzsdw.sln"  
+        working-directory: "./fdzsdw"  
         run: nuget.exe restore 
       - name: msbuild
-        working-directory: "./fdzsdw/fdzsdw.sln"
-        run: "& 'C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe'"
+        working-directory: "./fdzsdw"
+        run: "& 'C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe' 'fdzsdw.sln'"
       - name: upload
         uses: actions/upload-artifact@v2
         with:
           name: compiled_files
-          path: "./fdzsdw/fdzsdw/bin/Debug"  
+          path: "./fdzsdw/bin/Debug"  
           
