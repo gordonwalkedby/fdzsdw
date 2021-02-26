@@ -4,9 +4,8 @@
 是选择继续呆在房间里，还是选择去求救放弃自杀。  
 游戏玩法是靠打字，打字有速度要求，如果你能跟上，意味着你在坚持，在抗拒救援。  
 但是不是一般的人可以做到的，希望你可以活下来，就像我当年一样。   
-
-目前还是在测试和开发阶段，有BUG或建议都可以说。  
-可以到[发行版](https://gitee.com/walkedby/fdzsdw/releases)里下载面向公共的免费版本。   
+  
+下载和版本信息请到： [Releases](https://github.com/gordonwalkedby/fdzsdw/releases) 。   
 
 # 游戏运行环境
 - Windows 7 或更高
