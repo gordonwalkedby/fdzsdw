@@ -39,11 +39,13 @@ Public Class MainForm
         Pn.Height += less
         Pn.BackColor = Me.BackColor
         Me.BackColor = TopMenu.BackColor
+        NewVerToolStripMenuItem.Visible = False
         SkipCGButton.Visible = False
         ShowBuyPage()
         LoadTypeUnitsFromLocal()
         GenDefaultSubtitleFile()
         LoadSets(Settings.LoadFromLocal)
+        CheckUpdateAsync()
     End Sub
 
     Private Sub LoadSets(s As Settings)
@@ -105,6 +107,39 @@ Public Class MainForm
 
     Private Sub IEplayTimer_Tick(sender As Object, e As EventArgs) Handles IEplayTimer.Tick
         SkipCGButton_Click(Nothing, Nothing)
+    End Sub
+
+    Private Async Sub CheckUpdateAsync()
+        Dim vv As Version = Nothing
+        Dim errors As String = ""
+        Dim ok As Boolean = False
+        Dim t1 As New Task(Sub()
+                               ok = TryGetNewsetReleaseVersion(vv, errors)
+                           End Sub)
+        t1.Start()
+        Await t1
+        Dim url = "https://github.com/gordonwalkedby/fdzsdw/releases"
+        With NewVerToolStripMenuItem
+            If ok Then
+                Dim myV = My.Application.Info.Version
+                If myV < vv Then
+                    .Visible = True
+                    AddHandler .Click, Sub()
+                                           OpenBrower(url)
+                                       End Sub
+                End If
+            Else
+                .Visible = True
+                .Text = "检测游戏更新出错"
+                AddHandler .Click, Sub()
+                                       errors = $"{errors}{vbCrLf}按OK（确认）可以打开网站，自行检测更新。"
+                                       Dim rr = MsgBox(errors, MsgBoxStyle.Critical + MsgBoxStyle.OkCancel, "检测更新出错")
+                                       If rr = MsgBoxResult.Ok Then
+                                           OpenBrower(url)
+                                       End If
+                                   End Sub
+            End If
+        End With
     End Sub
 
     Private Sub ShowHelpPage()
@@ -183,9 +218,7 @@ Public Class MainForm
     End Sub
 
     Private Sub MoveToNextLevel()
-        If audioPly.PlaybackState = PlaybackState.Playing Then
-            audioPly.Stop()
-        End If
+        audioPly.Stop()
         If audioReader IsNot Nothing Then
             audioReader.Close()
             audioReader = Nothing

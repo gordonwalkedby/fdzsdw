@@ -30,35 +30,36 @@ Partial Class MainForm
         Me.Pn = New System.Windows.Forms.Panel()
         Me.IEplayTimer = New System.Windows.Forms.Timer(Me.components)
         Me.FakeClockTimer = New System.Windows.Forms.Timer(Me.components)
+        Me.NewVerToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TopMenu.SuspendLayout()
         Me.SuspendLayout()
         '
         'TopMenu
         '
         Me.TopMenu.BackColor = System.Drawing.Color.Gray
-        Me.TopMenu.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.SettingsButton, Me.AboutButton, Me.SkipCGButton})
+        Me.TopMenu.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.SettingsButton, Me.AboutButton, Me.SkipCGButton, Me.NewVerToolStripMenuItem})
         Me.TopMenu.Location = New System.Drawing.Point(0, 0)
         Me.TopMenu.Name = "TopMenu"
-        Me.TopMenu.Size = New System.Drawing.Size(1264, 24)
+        Me.TopMenu.Size = New System.Drawing.Size(1264, 25)
         Me.TopMenu.TabIndex = 0
         Me.TopMenu.Text = "MenuStrip1"
         '
         'SettingsButton
         '
         Me.SettingsButton.Name = "SettingsButton"
-        Me.SettingsButton.Size = New System.Drawing.Size(45, 20)
+        Me.SettingsButton.Size = New System.Drawing.Size(44, 21)
         Me.SettingsButton.Text = "设置"
         '
         'AboutButton
         '
         Me.AboutButton.Name = "AboutButton"
-        Me.AboutButton.Size = New System.Drawing.Size(45, 20)
+        Me.AboutButton.Size = New System.Drawing.Size(44, 21)
         Me.AboutButton.Text = "关于"
         '
         'SkipCGButton
         '
         Me.SkipCGButton.Name = "SkipCGButton"
-        Me.SkipCGButton.Size = New System.Drawing.Size(61, 20)
+        Me.SkipCGButton.Size = New System.Drawing.Size(61, 21)
         Me.SkipCGButton.Text = "跳过CG"
         '
         'Pn
@@ -77,6 +78,12 @@ Partial Class MainForm
         '
         Me.FakeClockTimer.Interval = 1000
         '
+        'NewVerToolStripMenuItem
+        '
+        Me.NewVerToolStripMenuItem.Name = "NewVerToolStripMenuItem"
+        Me.NewVerToolStripMenuItem.Size = New System.Drawing.Size(92, 21)
+        Me.NewVerToolStripMenuItem.Text = "检测到新版本"
+        '
         'MainForm
         '
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None
@@ -84,7 +91,7 @@ Partial Class MainForm
         Me.ClientSize = New System.Drawing.Size(1264, 691)
         Me.Controls.Add(Me.Pn)
         Me.Controls.Add(Me.TopMenu)
-        Me.Font = New System.Drawing.Font("Microsoft YaHei", 10.0!)
+        Me.Font = New System.Drawing.Font("微软雅黑", 10.0!)
         Me.ForeColor = System.Drawing.Color.White
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.KeyPreview = True
@@ -107,4 +114,5 @@ Partial Class MainForm
     Friend WithEvents IEplayTimer As Windows.Forms.Timer
     Friend WithEvents SkipCGButton As ToolStripMenuItem
     Friend WithEvents FakeClockTimer As Windows.Forms.Timer
+    Friend WithEvents NewVerToolStripMenuItem As ToolStripMenuItem
 End Class

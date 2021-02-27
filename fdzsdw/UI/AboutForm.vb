@@ -8,9 +8,10 @@ fdzsdw.exe 版本：v{My.Application.Info.Version.ToString(2)}
 更多信息请点击右侧链接。
 以及请翻阅本软件目录下自带的【说明.txt】"
         AddURLButton("游戏源码", "https://github.com/gordonwalkedby/fdzsdw")
-        AddURLButton("我的博客", "https://wby2001.blogspot.com/")
+        AddURLButton("我的博客", "https://walkedby.com/")
         AddURLButton("游戏目录", GetCurrentProgramFile.DirectoryName)
-        AddURLButton("打赏戈登", "https://github.com/gordonwalkedby/MyContent/blob/master/money.md")
+        AddURLButton("打赏戈登", "https://walkedby.com/?po=donate")
+        AddURLButton("检测更新", "https://github.com/gordonwalkedby/fdzsdw/releases")
     End Sub
 
     Private Sub AddURLButton(text As String, url As String)

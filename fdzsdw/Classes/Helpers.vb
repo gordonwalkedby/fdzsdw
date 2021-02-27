@@ -180,4 +180,65 @@
         Return False
     End Function
 
+    ''' <summary>
+    ''' 输出错误信息到 errors.txt 里，如果输出失败就失败了
+    ''' </summary>
+    Public Sub DoBGLog(m As String)
+        Static logfile As New FileInfo(Path.Combine(GetCurrentProgramFile.DirectoryName, "errors.txt"))
+        m = $"{Now} | {m}{vbCrLf}"
+        Try
+            File.AppendAllText(logfile.FullName, m)
+        Catch ex As Exception
+            Debug.WriteLine(ex)
+        End Try
+    End Sub
+
+    ''' <summary>
+    ''' 获取 github release 的最新版本
+    ''' </summary>
+    ''' <returns></returns>
+    Public Function TryGetNewsetReleaseVersion(ByRef newVer As Version, ByRef errors As String) As Boolean
+        errors = ""
+        newVer = Nothing
+        Dim h = WebRequest.CreateHttp("https://api.github.com/repos/gordonwalkedby/fdzsdw/releases/latest")
+        With h
+            .Method = "GET"
+            .Timeout = 8000
+            .Accept = "application/vnd.github.v3+json"
+            .UserAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:78.0) Gecko/20100101 Firefox/78.0"
+            Try
+                Using r As HttpWebResponse = h.GetResponse
+                    If r.StatusCode = 200 Then
+                        Using reader As New StreamReader(r.GetResponseStream)
+                            Dim jj As String = reader.ReadToEnd
+                            jj = jj.Replace("""", "")
+                            Dim m As Match = Regex.Match(jj, "tag_name: v([0-9\.]+)")
+                            If m.Success Then
+                                Dim str = m.Result("$1")
+                                Dim vv As Version = Nothing
+                                If Version.TryParse(str, vv) Then
+                                    newVer = vv
+                                    Return True
+                                Else
+                                    errors = $"tag_name 字符串里无法读取版本号 {m}"
+                                End If
+                            Else
+                                errors = $"返回的 json 里无法读取 tag_name "
+                            End If
+                        End Using
+                    Else
+                        errors = $"http 返回 {r.StatusCode}"
+                    End If
+                End Using
+            Catch ex As Exception
+                errors = $"http 请求出错 {ex}"
+            End Try
+        End With
+        If errors.Length > 0 Then
+            errors = "检测更新失败：" + errors
+            DoBGLog(errors)
+        End If
+        Return False
+    End Function
+
 End Module
