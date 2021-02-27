@@ -272,9 +272,11 @@ Public Class MainForm
                 End If
                 Pn.Focus()
             Else
-                Dim index As Integer = e.KeyCode
-                If index < 128 Then
-                    tui.InputKey(Char.ToLower(Chr(index)))
+                If isPause = False Then
+                    Dim index As Integer = e.KeyCode
+                    If index < 128 Then
+                        tui.InputKey(Char.ToLower(Chr(index)))
+                    End If
                 End If
             End If
         End If

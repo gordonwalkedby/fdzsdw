@@ -38,6 +38,7 @@ Public Class TypeUI
     ''' 输入一个字符
     ''' </summary>
     Public Sub InputKey(c As Char)
+        If _timer.Enabled = False Then Exit Sub
         Dim a = Asc(c)
         If (a < 97 AndAlso a <> 8) OrElse a > 122 Then
             Exit Sub
