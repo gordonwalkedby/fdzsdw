@@ -23,6 +23,12 @@ Internet Explorer 11
 鼠标和键盘是必须的
 需要声卡，加上扬声器或耳机
 
+你可能会需要安装下面这些运行库软件：
+.NET Framework 4.8 安装程序：
+https://dotnet.microsoft.com/download/dotnet-framework/thank-you/net48-offline-installer
+Windows 7 上安装 IE 11：
+https://support.microsoft.com/zh-cn/topic/%E4%B8%8B%E8%BD%BD-internet-explorer-11-%E8%84%B1%E6%9C%BA%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F-99d492a1-3a62-077b-c476-cf028aff9a7f
+
 有需要联系我的问题，请到下面这里的某个地方联系我：  
 程序源代码，可发issue  https://github.com/gordonwalkedby/fdzsdw
 我的微博  https://weibo.com/5977985000/profile

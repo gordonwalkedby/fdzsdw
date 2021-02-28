@@ -180,12 +180,6 @@
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
-    <None Include="运行库安装\Win7安装IE11.url">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="运行库安装\安装 .NET 4.8 运行库.url">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.8">
