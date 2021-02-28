@@ -1,7 +1,4 @@
-﻿Imports System.ComponentModel
-Imports NAudio.Wave
-
-Public Class MainForm
+﻿Public Class MainForm
 
     Private ReadOnly GameTitle As String = "服毒自杀的我"
 
@@ -18,8 +15,6 @@ Public Class MainForm
     Private ReadOnly pauseLabel As New Label
     Private ReadOnly FakeClock As New Label
 
-    Private ReadOnly audioPly As New WaveOutEvent
-    Private audioReader As AudioFileReader = Nothing
     Private ReadOnly gameSW As New Stopwatch
     Private ReadOnly ieply As New IEMediaPlayer
 
@@ -31,7 +26,10 @@ Public Class MainForm
         Me.DoubleBuffered = True
         Pn.Controls.Add(ieply)
         ieply.Visible = False
-        ieply.LoadIE()
+        If ieply.LoadIE = False Then
+            MsgBox("对不起，你系统中没有 IE 11 或更高版本，无法播放游戏中的视频与音频。请你安装了IE11之后再回来。", MsgBoxStyle.Critical, "服毒自杀的我")
+            Environment.Exit(0)
+        End If
         Me.Width = FormWidth
         TopMenu.Font = Me.Font
         Dim less = FormWidth / 16 * 9 - Pn.Height
@@ -49,9 +47,10 @@ Public Class MainForm
     End Sub
 
     Private Sub LoadSets(s As Settings)
-        audioPly.Volume = s.VoiceVolume / 100
         If IEplayTimer.Enabled Then
             ieply.SetVolume(s.BGMVolume / 100)
+        Else
+            ieply.SetVolume(s.VoiceVolume / 100)
         End If
         If s.SkipCG = True Then
             skipCG = True
@@ -93,11 +92,6 @@ Public Class MainForm
             Throw New FileNotFoundException($"文件不存在： {mp4.FullName}")
         End If
         SkipCGButton.Visible = True
-        If ieply.LoadIE = False Then
-            MsgBox("对不起，你系统中没有 IE 11 或更高版本，无法播放视频。此处帮您直接跳过。", MsgBoxStyle.Critical, "服毒自杀的我")
-            SkipCGButton_Click(Nothing, Nothing)
-            Exit Sub
-        End If
         ieply.Dock = DockStyle.Fill
         ieply.Visible = True
         ieply.SetContent(mp4.FullName, False, True, sets.BGMVolume / 100, False)
@@ -218,11 +212,6 @@ Public Class MainForm
     End Sub
 
     Private Sub MoveToNextLevel()
-        audioPly.Stop()
-        If audioReader IsNot Nothing Then
-            audioReader.Close()
-            audioReader = Nothing
-        End If
         Dim last = tui.CurrentTypeUnit
         If last IsNot Nothing Then
             If tui.IsPass = False Then
@@ -261,9 +250,7 @@ Public Class MainForm
                     Pn.BackgroundImage = My.Resources.l6
             End Select
             tui.CurrentTypeUnit = t
-            audioReader = New AudioFileReader(t.AudioFileName)
-            audioPly.Init(audioReader)
-            audioPly.Play()
+            ieply.SetContent(t.AudioFileName, False, True, sets.VoiceVolume / 100, False)
             Units.RemoveAt(0)
             subLabel.Visible = True
             subLabel.Text = t.Subtitle
@@ -296,13 +283,7 @@ Public Class MainForm
                 Else
                     gameSW.Start()
                 End If
-                If audioPly.PlaybackState <> PlaybackState.Stopped Then
-                    If isPause Then
-                        audioPly.Pause()
-                    Else
-                        audioPly.Play()
-                    End If
-                End If
+                ieply.PlayOrPause(Not isPause)
                 Pn.Focus()
             Else
                 If isPause = False Then
@@ -354,9 +335,11 @@ Public Class MainForm
         If Not SkipCGButton.Visible Then
             Exit Sub
         End If
+        ieply.Visible = False
+        ieply.ClearPage()
+        Pn.Focus()
         SkipCGButton.Visible = False
         IEplayTimer.Enabled = False
-        ieply.Dispose()
         ShowHelpPage()
     End Sub
 

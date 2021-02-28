@@ -12,12 +12,12 @@
             padding: 0px;
             overflow: hidden;
         }
-        
+
         #ply {
             width: 100%;
             background-color: black;
         }
-        
+
         video::cue {
             font-size: 5em;
         }
@@ -33,7 +33,7 @@
         var plysub = document.getElementById("plysub")
         var lastHeight = 0
 
-        setInterval(function() {
+        setInterval(function () {
             var wh = window.innerHeight
             if (wh != lastHeight) {
                 ply.style.height = wh.toFixed() + "px"
@@ -45,12 +45,17 @@
             ply.src = src
             ply.controls = controls
             ply.autoplay = autoplay
-            var mme = function(ev) {
+            var mme = function (ev) {
                 ev.preventDefault()
             }
             ply.onkeydown = mme
             ply.onkeyup = mme
             ply.onkeypress = mme
+            if (!loop) {
+                ply.onended = function (ev) {
+                    ply.src = ""
+                }
+            }
             SetVolume(volume)
             Setloop(loop)
         }
@@ -67,8 +72,8 @@
             return ply.paused
         }
 
-        function PlayOrPause() {
-            if (IsPaused()) {
+        function PlayOrPause(b) {
+            if (b) {
                 ply.play()
             } else {
                 ply.pause()

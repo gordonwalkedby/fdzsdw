@@ -5,7 +5,7 @@
 打开 fdzsdw.exe 即可开始游戏。
 第一次运行时，会要求您授权修改注册表。
 这是因为游戏内的视频播放组件依赖 Internet Explorer 11 浏览器，我们需要向 Windows 系统登记我们需要的 IE 版本。
-如果您拒绝修改注册表，或者无法提供管理员权限去修改注册表，或者您的电脑里没有 Internet Explorer 11。那么本游戏很可能无法运行。
+如果您拒绝修改注册表，或者无法提供管理员权限去修改注册表，或者您的电脑里没有 Internet Explorer 11。那么本游戏将无法运行。
 
 卸载游戏：
 应该先以管理员权限运行 clear.reg 文件，我会清除之前注入的注册表信息。
@@ -33,9 +33,6 @@ Internet Explorer 11
 District Four by Kevin MacLeod
 Link: https://filmmusic.io/song/3662-district-four
 License: https://filmmusic.io/standard-license
-
-使用的第三方类库：
-https://github.com/naudio/NAudio
 
 协助制作者：
 0xAA55 https://www.0xaa55.com/

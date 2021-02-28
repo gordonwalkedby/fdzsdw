@@ -19,15 +19,11 @@
 # 编译
 - Windows 10
 - Visual Studio 2019
-- Nuget
 
 # 使用的第三方音乐
 District Four by Kevin MacLeod  
 Link: https://filmmusic.io/song/3662-district-four  
 License: https://filmmusic.io/standard-license  
-
-# 使用的第三方类库
-- [NAudio](https://github.com/naudio/NAudio)
 
 # 协助制作者：
 - [0xAA55](https://www.0xaa55.com/)

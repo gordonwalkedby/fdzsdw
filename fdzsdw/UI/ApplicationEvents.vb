@@ -24,7 +24,9 @@ Namespace My
         End Sub
 
         Private Sub MyApplication_UnhandledException(sender As Object, e As UnhandledExceptionEventArgs) Handles Me.UnhandledException
-            MsgBox($"{e.Exception}", MsgBoxStyle.Critical, "出错，请截图给戈登走過去看")
+            Dim m = e.Exception.ToString
+            DoBGLog(m)
+            MsgBox($"{m}", MsgBoxStyle.Critical, "出错，请截图给戈登走過去看")
             Environment.Exit(-1)
         End Sub
 

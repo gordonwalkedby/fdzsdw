@@ -165,10 +165,10 @@ Public Class IEMediaPlayer
     End Function
 
     ''' <summary>
-    ''' 继续播放或暂停
+    ''' 继续播放或暂停，如果已经播放完成了，且没有loop ，那继续播放是不会回到开头重新播放的
     ''' </summary>
-    Public Sub PlayOrPause()
-        ie.Document.InvokeScript("PlayOrPause")
+    Public Sub PlayOrPause(b As Boolean)
+        ie.Document.InvokeScript("PlayOrPause", {b})
     End Sub
 
     ''' <summary>
